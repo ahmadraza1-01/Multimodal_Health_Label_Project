@@ -36,27 +36,27 @@ This table summarizes the top accuracy achieved for our primary prediction tasks
 
 ### Depression Detection (Binary)
 Face
-CNN + BiLSTM + Transformer + Attention
+ -> CNN + BiLSTM + Transformer + Attention
 85.0%
 
 ### Depression Detection (Binary)
 Text + Audio
-Ensemble (MLP + BiLSTM) with LR Scheduler
+-> Ensemble (MLP + BiLSTM) with LR Scheduler
 83.3%
 
 ### Sleep Disorder Detection (Binary)
 Face
-MLP (Multi-Layer Perceptron)
+-> MLP (Multi-Layer Perceptron)
 79.0%
 
 ### Sleep Disorder Detection (Binary)
 Speech
-Single-layer Weighted BiLSTM
+-> Single-layer Weighted BiLSTM
 68.5%
 
 ### Sleep Disorder Detection (Binary)
 Text
-Random Forest (with Cross-Validation)
+-> Random Forest (with Cross-Validation)
 69.5%
 
 Full performance details for all models and tasks can be found in the project report.
